@@ -1,0 +1,11 @@
+-- Apache::Controller Webapps Modules Table 
+-- $Id$
+			
+CREATE TABLE modules (
+	name              TEXT NOT NULL,
+	site		  TEXT NOT NULL,
+	templatedir       TEXT NOT NULL,             
+	globalfile        TEXT NOT NULL,             
+	intfile           TEXT NOT NULL,             
+	title             TEXT NOT NULL
+)

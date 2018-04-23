@@ -1,0 +1,14 @@
+; Maintained by Config::Simple/2.5
+; Get the latest version from http://www.CPAN.org or your nearest CPAN mirror
+; ----------------------------------------------------------------------
+
+[db]
+passwd=password
+port=0
+host=localhost
+user=controller
+type=mysql
+name=controller
+modules_table=modules
+sessiondb=controller
+session_table=sessions

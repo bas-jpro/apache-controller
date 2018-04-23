@@ -1,0 +1,15 @@
+# Country Codes table for Webapps
+# JPRO 12/01/2006
+# 
+# Country codes are at ftp://ftp.ripe.net/iso3166-countrycodes.txt
+# utils/upload_countrycodes.pl will upload to db
+#
+# value is 2 letter country code
+# description is country name
+#
+
+CREATE TABLE countrycodes (
+	id int unsigned not null auto_increment primary key,
+	value tinytext not null,
+	description tinytext not null
+);

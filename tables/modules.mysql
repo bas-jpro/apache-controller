@@ -1,0 +1,13 @@
+# Apache::Controller Webapps Modules Table 
+# v2.0 JPRO 26/01/2006
+#
+			
+CREATE TABLE IF NOT EXISTS modules (
+	name              TINYTEXT          NOT NULL,
+	site		  TEXT		    NOT NULL,
+	templatedir       TEXT              NOT NULL,             
+	globalfile        TEXT              NOT NULL,             
+	intfile           TEXT              NOT NULL,             
+	title             TINYTEXT          NOT NULL,             
+	PRIMARY KEY(name(128),site(128))
+);

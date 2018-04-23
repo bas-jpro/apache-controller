@@ -1,0 +1,124 @@
+<!-- Interface description file for Apache::Controller::Interface Admin -->
+<!-- v1.0 JPR 23/01/2006 Initial release                                -->
+
+<config class="Apache::Controller::Interface">
+	<db>
+		<host>localhost</host>
+		<port>0</port>
+		<user>controller</user>
+		<passwd>password</passwd>
+		<type>mysql</type>
+		<name>controller</name>
+		<sessiondb>controller</sessiondb>
+	</db>
+
+	<modules name="FormSetup.pm" />
+	<modules name="Apache/Controller/Interface.pm" />
+
+	<data>
+		<field name="name">
+			<type>string</type>
+			<desc>Application Name</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="org_name">
+			<type>string</type>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="site">
+			<type>string</type>
+			<desc>Site</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="org_site">
+			<type>string</type>
+			
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+			</setup>
+		</field>
+		
+		<field name="templatedir">
+			<type>string</type>
+			<desc>Template Directory</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="globalfile">
+			<type>string</type>
+			<desc>Global File</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="intfile">
+			<type>string</type>
+			<desc>Internal File</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="title">
+			<type>string</type>
+			<desc>Application Title</desc>
+
+			<setup>
+				<form>edit</form>
+				<form>edit_mandatory</form>
+				<form>add</form>
+				<form>add_mandatory</form>
+			</setup>
+		</field>
+
+		<field name="age">
+			<type>number</type>
+			<desc>Session Age</desc>
+
+			<default>120</default>
+
+			<setup>
+				<form>sessions</form>
+			</setup>
+		</field>
+	</data>
+
+	<restrict>
+	</restrict>
+</config>
+

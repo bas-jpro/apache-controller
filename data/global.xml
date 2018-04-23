@@ -1,0 +1,9 @@
+<!-- Global Enum definitions             -->
+<!-- v1.0 JPR 13/08/2000 Initial Release -->
+
+<config>
+	<!-- Global scalar variables -->
+	<!-- Note: must have at least 1 (FIXME) -->
+	<var name="domain">bas.ac.uk</var>
+	<var name="version">1.0</var>
+</config>

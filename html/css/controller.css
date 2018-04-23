@@ -1,0 +1,158 @@
+/* Apache::Controller::Interface CSS */
+/* JPRO 23/01/2006                   */
+
+a:link {
+	text-decoration: none;
+	color: #00476e;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #00476e;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+body {
+	background: white;
+	color: #00476e;
+	font-family: arial, Helvetica, sans-serif;
+}
+
+#title {
+	text-align: center;
+	font-size: 2em;
+	font-variant: small-caps;
+
+	border-bottom: thin solid black;
+	padding-bottom: 0.25em;
+	margin-bottom: 0em;
+}
+
+#footer {
+	text-align: right;
+	font-size: 0.7em;
+	
+	border-top: thin solid black;
+	margin-top: 2em;
+}
+
+#menubar {
+	float: left;
+	width: 100%;
+
+	border-bottom: thin solid black;
+
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+
+#menubar ul {
+	padding: 0px;
+	margin: 0em;
+
+	list-style: none;
+}
+
+#menubar li {
+	float: left;
+	width: 10em;
+	text-align: center;
+
+	margin-left: 1em;
+	padding: 2px;
+
+	border-right: thin solid black;
+}
+
+#content {
+	clear: both;
+
+	margin-top: 1em;
+	min-height: 20em;
+}
+
+#applist {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 90%;
+}
+
+#applist th {
+	border: thin solid black;	
+}
+
+.site_col {
+	width: 30%;
+}
+
+.appname_col {
+	width: 30%;
+}
+
+.title_col {
+	width: 40%;
+}
+
+.even {
+	background: white;
+}
+
+.odd {
+	background: #cccccc;
+}
+
+.edit-row {
+	position: relative;
+	text-align: left;
+	margin-bottom: 0.25em;
+}
+
+.edit-row div {
+	color: #8c9eaa;
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	width: 14em;
+	padding-right: 2em;
+}
+
+.edit-row-input {
+	position: relative;
+	top: -2px;
+
+	color: #00476e;
+	border: 2px solid #ccdbe2;
+	width: 40em;
+}
+
+.edit-row-submit {
+	position: relative;
+	top: -2px;
+
+	margin-left: 0em;
+	margin-top: 1em;
+	border: 2px solid #ccdbe2;
+	text-align: left;
+}
+
+#sessions ul {
+	list-style: none;
+}
+
+#sessions div {
+	border-bottom: thin solid black;
+	margin-bottom: 0.5em;
+	padding: 4px;
+
+	white-space: pre;
+}
+
+#sessions input {
+	border: 2px solid #ccdbe2;
+	margin-right: 1em;
+}
